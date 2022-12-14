@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+html,
+body, div {
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.sd-btn--action{
+  background-color: #FF969B !important;
+  color: var(--primary-foreground, #fff) !important;
+  align: center;
+}
+
+.sd-btn:not(:disabled):hover, .sd-btn:not(:disabled):focus {
+  box-shadow: 0 0 0 2px var(--primary, #FF969B) !important;
+}
+
+.sd-btn--action:not(:disabled):hover, .sd-btn--action:not(:disabled):focus {
+  color: var(--primary, #FF969B) !important;
+  background-color: var(--background, #fff) !important;
+}
+
+.sd-boolean__thumb{
+  color: #FF969B !important;
+}
+
+.sd-boolean__control:focus~.sd-boolean__switch{
+  box-shadow: inset 0 0 0 2px var(--primary, #FF969B) !important;
+}
+
+.sd-action-bar{
+  justify-content: center;
+}
+
+.sd-completedpage:before {
+  height: calc(5 * var(--base-unit, 8px)) !important;
+}
+
+.sd-page {
+  padding: calc(2 * var(--base-unit, 8px)) calc(2 * var(--base-unit, 8px)) calc(2 * var(--base-unit, 8px)) !important;
+}
+
+.sd-body__navigation {
+  padding: calc(4 * var(--base-unit, 8px)) calc(2 * var(--base-unit, 8px)) !important;
+}
+
+.complete-button{
+  background-color: #FF969B !important;
+  color: #fff !important;
+  border-radius: 4px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.complete-button:hover{
+  background-color: #fff !important;
+  color:#FF969B !important;
+  box-shadow: inset 0 0 0 2px var(--primary, #FF969B) !important;
+  border-radius: 4px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.css-zvnfl9[aria-selected=true], .css-zvnfl9[data-selected] {
+  color: #000000 !important;
+  background: #FE979C !important;
+}
+.css-12zftbs[aria-selected=true], .css-12zftbs[data-selected] {
+  color: #000000 !important;
+  background: #FE979C !important;
+}
