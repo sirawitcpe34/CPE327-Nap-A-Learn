@@ -238,7 +238,7 @@ export default function Home(props) {
                     </WrapItem>
                     <WrapItem>
                       <Box sx={menu} boxShadow='lg' p='6' rounded='md'>
-                        <Heading size='md' color="#3E3C6E" marginLeft='20px' marginTop='20px'>Video</Heading>
+                        <Heading size='md' color="#3E3C6E" marginLeft='20px' marginTop='20px'>Materials</Heading>
                         <Wrap justify="center"> {/*show example article material*/}
                           {
                             material.map((item, index) => {
@@ -302,7 +302,7 @@ export default function Home(props) {
                     </WrapItem>
                     <WrapItem>
                       <Box sx={menu} boxShadow='lg' p='6' rounded='md'>
-                        <Heading size='md' color="#3E3C6E" marginLeft='20px' marginTop='20px'>Video</Heading>
+                        <Heading size='md' color="#3E3C6E" marginLeft='20px' marginTop='20px'>Workshop</Heading>
                         <Wrap justify="center"> {/*show example professtion professtion*/}
                           {
                             material1.map((item, index) => {

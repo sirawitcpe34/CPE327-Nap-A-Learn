@@ -25,7 +25,7 @@ export default function professionalusic() {
                               <Box sx={line}></Box> {/* select article or material */}
                               <Wrap align='center' justify='center' spacingX='50px' spacingY='12px'>
                                     <BoxLearningProfessional link={`/professional/article`} image='/image/article.jpg' headding='Article' text='Read for capable of stirring up fresh life endlessly' />
-                                    <BoxLearningProfessional link={`/professional/workshop`} image='/image/workshop.jpg' headding='Work Shop' text='Find the hobby that you love to be career' />
+                                    <BoxLearningProfessional link={`/professional/workshop`} image='/image/workshop.jpg' headding='Workshop' text='Find the hobby that you love to be career' />
                               </Wrap>
                         </div>
                   </Layout>

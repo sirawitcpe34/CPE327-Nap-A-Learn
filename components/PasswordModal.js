@@ -187,7 +187,7 @@ export default function PasswordModal({ isOpen, onClose, usernumberID, userrole 
               </Button>
               <Button colorScheme='' size='lg' sx={pinkbutton} _hover={{
                 bg: 'White', border: '2px solid', color: Colour.FirstPink
-              }} onClick={onCancel}> Cencel
+              }} onClick={onCancel}> Cancel
               </Button>
             </ButtonGroup>
           </ModalFooter>

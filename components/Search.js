@@ -19,7 +19,7 @@ function Search({ icon, onChange }) {
                         children={icon}>
                     </InputRightElement>
                     <Input type='text'
-                        placeholder='Search Topic'
+                        placeholder='Search'
                         bgColor={Colour.White}
                         onChange={onChange}>
                     </Input>
